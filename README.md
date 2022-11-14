@@ -12,7 +12,8 @@
 
 - **Sequence**: a data structure in which data is stored and accessed in a
 specific order.
-- **Stack** is a linear data structure that follows the principle of Last In First Out (LIFO)
+- **Stack** is a linear data structure that follows the principle of Last In
+First Out (LIFO).
 - **Index**: the location, represented by an integer, of an element in a
 sequence.
 - **Iterable**: able to be broken down into smaller parts of equal size that
@@ -227,10 +228,10 @@ linked lists are one-directional, while doubly linked lists go both ways. Having
 the extra `prev_node` pointer in a doubly linked list can be useful in the
 following scenarios:
 
-- Removing an item form the end of a list
-- Reversing the list (traversal from tail to head)
+- Removing an item form the end of a list.
+- Reversing the list (traversal from tail to head).
 - Implementing "previous/next" operations or "undo/redo" operations (like
-  building a playlist or a text editor)
+  building a playlist or a text editor).
 
 The trade-offs are that a doubly linked list takes up more memory than to a
 singly linked list, since we have to keep track of multiple pointers on each
